@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/',(request,response)=>{
-return response.json({message:'Server está funcionando'});
+return response.json({message:'Servidor está funcionando'});
 })
 
 app.get('/atualizou',(request, response)=>{
